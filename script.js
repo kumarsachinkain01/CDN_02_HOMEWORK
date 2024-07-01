@@ -13,7 +13,7 @@ const Heading = () => {
 const Para1 = () => {
      return(
         <>
-        <a href="#" >Getting started with the Web</a>
+        <a class="moving-anchor" href="https://www.w3schools.com/" target="_blank" >Getting started with the Web</a>
         <p>
          Provides a practical introduction to web development for complete beginners.
         </p>
@@ -24,7 +24,7 @@ const Para1 = () => {
 const HTML = () => {
     return(
        <>
-       <a href="#" >HTML - Structuring the web</a>
+       <a class="moving-anchor" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" >HTML - Structuring the web</a>
        <p>
         HTML is the language that we use to structure the different parts of our content and define what their meaning or purpose is. This topic HTML in Detail.
        </p>
@@ -34,7 +34,7 @@ const HTML = () => {
 const CSS = () => {
     return(
        <>
-       <a href="#" >CSS - Styling the web</a>
+       <a class="moving-anchor" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" >CSS - Styling the web</a>
        <p>
         CSS is the language that we use to control our web content's style and layout, as wel as adding behaviour like anumation. This topic provides comprehensive coverage of CSS.
        </p>
